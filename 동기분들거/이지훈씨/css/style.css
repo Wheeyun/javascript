@@ -1,0 +1,7 @@
+header > div{
+    opacity: 0.7;
+    background-color: rgb(227, 227, 227);
+}
+.hidden{
+    display: none;
+}

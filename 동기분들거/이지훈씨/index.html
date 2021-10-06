@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="css/style.css">
+
+    <title>TOMATO</title>
+</head>
+<body>
+    <header>
+        <div style="width: 50%;">
+            <h1 id="greeting" class="hidden"></h1>
+
+            <h4 id="weather">
+                <p class="temp"></p>
+                <p class="location"></p>
+            </h4>
+        </div>
+    </header>
+
+    <form id="loginForm" class="hidden">
+        <input type="text" placeholder="*아이디 입력하시오(8~15자)" maxlength="15" required /><br />
+        <input id="password" type="password" placeholder="*비밀번호를 입력하세요" /><br />
+        <input type="submit" value="LogIn"/>
+        <hr>
+    </form>
+
+    
+
+    <div id="rate"></div>
+
+    <h2 id="clock"></h2>
+
+
+    <form id="todoForm">
+        <input type="text" placeholder="할 일을 입력하세요" required />
+    </form>
+    <ul id="todoList"></ul>
+
+    <div id="quote">
+        <span></span><br>
+        <span></span>
+    </div>
+
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quote.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/exchangeRate.js"></script>
+</body>
+</html>

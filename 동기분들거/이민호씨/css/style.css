@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(125, 252, 235);
+    
+}
+
+.hidden{
+    display: none;
+}
+
+.header h4{
+    text-align: right;
+}
+
+.header h3{
+    text-align: left;
+}
+
+fieldset
+{
+  background-color:honeydew;
+  border-radius: 8px;
+  max-width:500px;
+  padding:16px;	
+}
+
+legend {
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 14px;
+  }
+
+label {
+    margin-right: 5px;
+    line-height: 30px;
+}
+/* .active {
+    color: blue;
+} */
+
+/* .title2 h1{
+    color: blue;
+} */
+
+/* .title h3{
+    color:tomato;
+    font-weight: bold;
+} */

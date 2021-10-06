@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="css/style.css"/>
+    
+    <title>JSTEST</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h3 id="clock"></h3>    
+            <h4 id="weather">
+                <p class="temp"></p>
+                <span class="location"></span>
+            </h4>
+        </div>
+    <div class="mainContents">
+        <div>
+            <form id="loginForm" class="hidden">
+                <input type="text" placeholder="아아디 입력하세요(8~15자)" value="" required maxlength="15"/> 
+                <input type="submit" value="제출">
+            </form>
+            <h1 id="greeting" class="hidden"></h1>
+        </div>
+        <div>
+            <form id="todoForm">
+                <input type="text" placeholder="할 일을 입력하세요" required />
+            </form>
+            <ul id="todoList">
+                <!-- <li>
+                    <span>내용</span>
+                    <button>🈳</button>
+                </li> -->
+                <!-- Todolist를 만들 툴이 필요하다. 뭐가 필요한가?
+                사용자가 입력할 곳이 필요하다
+                사용자가 입력한 내용이 '리스트'로 표현되어야 한다 -->
+            </ul>
+        </div>
+        <div>
+            <form id="combobox">
+                <p>
+                    어느 나라에서 오셨습니까?
+                        <select name="country" onchange="handleOnChange(this)">
+                            <option value="korea">한국</option>
+                            <option value="japan">일본</option>
+                            <option value="china">중국</option>
+                            <option value="russia">러시아</option>
+                            <option value="america">미국</option>
+                        </select>
+                    <div id="test"></div>
+                </p>
+            </form>
+        </div>
+        <div>
+            <form id="radiobox">
+                <fieldset>
+                <legend>희망하는 연결방법을 선택해주세요</legend>
+                <div>
+                  <input type="radio" id="choice1"
+                   name="contact" value="이메일" checked>
+                  <label for="choice1">이메일</label><br/>
+              
+                  <input type="radio" id="choice2"
+                   name="contact" value="전화">
+                  <label for="choice2">전화</label><br/>
+                  
+                  <input type="radio" id="choice3"
+                  name="contact" value="팩스">
+                  <label for="choice3">팩스</label><br/>
+            
+                  <input type="radio" id="choice4"
+                   name="contact" value="우편">
+                  <label for="choice4">우편</label>
+                </div>
+                <div>
+                  <button type="submit" onclick="getContact()">보내기</button> 
+                  <div id="result"></div>
+                </div>
+                </fieldset>
+            </form>        
+        </div>
+        <div id="quote">
+            <span></span>
+            <span></span>
+        </div>    
+    </div>
+</div>
+
+<img src=""/>
+</body>
+<body>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quote.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/radiobox.js"></script>
+</body>
+</html>

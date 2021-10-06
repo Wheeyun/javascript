@@ -1,0 +1,54 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.active {
+    color: blue;
+}
+
+.hidden {
+    display: none;
+}
+.flatImg {
+    background-color: gray;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+}
+
+.embImg {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3rem;
+}
+
+#desnityContensDiv ul {
+    list-style: none;
+    height: 5rem;
+    width: 20rem;
+}
+#desnityContensDiv ul li:hover {
+    cursor: pointer;
+    background-color: bisque;
+}
+
+#desnityContensDiv li {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+#desnityContensDiv .charDiv {
+    height: 96px;
+    width: 474px;
+    margin-bottom: 1rem;
+}
+#desnityContensDiv .charDiv div {
+    color: white;
+    margin-left: 100px;
+}
+#userInfoDiv {
+    font-size: large;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

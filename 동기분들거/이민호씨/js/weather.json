@@ -1,0 +1,15 @@
+{
+    "coord":{"lon":126.663,"lat":37.4724},
+    "weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],
+    "base":"stations",
+    "main":{"temp":297.52,"feels_like":298.26,"temp_min":297.01,"temp_max":298.05,"pressure":1019,"humidity":86},
+    "visibility":9000,
+    "wind":{"speed":3.09,"deg":220},
+    "clouds":{"all":90},
+    "dt":1633345198,
+    "sys":{"type":1,"id":8105,"country":"KR","sunrise":1633296661,"sunset":1633338784},
+    "timezone":32400,
+    "id":1843564,
+    "name":"Incheon",
+    "cod":200  
+}

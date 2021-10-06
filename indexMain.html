@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            http-equiv="X-UA-Compatible"
+            content="IE=edge"
+        />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link
+            rel="Stylesheet"
+            href="css/style.css"
+        />
+        <title>자바스크립트</title>
+    </head>
+    <body>
+        <form
+            id="loginForm"
+            class="hidden"
+            action=""
+        >
+            <input
+                type="text"
+                placeholder="아이디를 입력하세요(4~15자)"
+                value=""
+                required
+                minlength="4"
+                maxlength="15"
+            />
+            <!-- <input
+                type="password"
+                placeholder="패스워드를 입력하세요(8~20자)"
+                maxlength="20"
+                minlength="8"
+                required
+                name="password"
+                value=""
+                id=""
+            /> -->
+            <input type="submit" value="LOG IN" />
+            <!-- </form> -->
+            <!-- <br />
+             <form id="register">
+            <br />
+            생년월일 <br />
+            <input
+                type="text"
+                value=""
+                name="year"
+                placeholder="년(4자)"
+                maxlength="4"
+                minlength="4"
+            /><select name="month">
+                <option value="">월</option>
+                <option value="01">1</option>
+                <option value="02">2</option>
+                <option value="03">3</option>
+                <option value="04">4</option>
+                <option value="05">5</option>
+                <option value="06">6</option>
+                <option value="07">7</option>
+                <option value="08">8</option>
+                <option value="09">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">
+                    12
+                </option></select
+            ><input
+                type="text"
+                name="day"
+                placeholder="일(2자)"
+                minlength="2"
+                maxlength="2"
+            /><br />
+            성별 <br />
+            <select name="gender">
+                <option value="">성별</option>
+                <option value="male">남자</option>
+                <option value="female">
+                    여자
+                </option>
+                <option value="none">
+                    선택안함
+                </option>
+            </select>
+            <br />
+            본인 확인 이메일 <br />
+            <input type="email" /><br />
+            휴대전화 <br />
+            <input type="text" /><br /> -->
+            <!-- <input
+                type="button"
+                value="회원가입"
+            /> -->
+        </form>
+        <h1 id="greeting" class="hidden"></h1>
+        <h2 id="clock"></h2>
+        <form id="todoForm">
+            <input
+                type="text"
+                placeholder="insert Todo!"
+                required
+            />
+        </form>
+        <ul id="todoList"></ul>
+        <div id="quote">
+            <span></span>
+            <span></span>
+        </div>
+        <h4 id="weather">
+            <p class="temp"></p>
+            <p class="location"></p>
+        </h4>
+        <div id="map"></div>
+
+        <div id="ytPlayer"></div>
+
+        <!-- <img src="img/0.jpg"/> -->
+        <script src="js/greeting.js"></script>
+        <script src="js/clock.js"></script>
+        <script src="js/quote.js"></script>
+        <script src="js/background.js"></script>
+        <script src="js/todo.js"></script>
+        <script src="js/weather.js"></script>
+
+        <script src="js/ytPlayer.js"></script>
+        <p>Destiny2 유저 검색하기</p>
+        <div>
+            <form id="destinySearchForm">
+                <input
+                    type="text"
+                    placeholder="검색할 유저 이름을 적어라"
+                />
+                <button type="submit">
+                    검색
+                </button>
+            </form>
+            <div id="desnityContensDiv"></div>
+        </div>
+        <script src="js/destiny.js"></script>
+    </body>
+</html>

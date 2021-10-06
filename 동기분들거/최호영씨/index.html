@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="Stylesheet" href="css/style.css" />
+
+    <title>practice</title>
+  </head>
+
+  <body>
+    <header>
+      <h2 id="clock"></h2>
+      <div>
+        <h4 id="weather"></h4>
+        <span class="temp"></span>
+        <p class="location"></p>
+        <input id="mode" type="button" value="🌚(야간모드)" />
+      </div>
+    </header>
+    <main>
+      <div>
+        <div>
+          <form id="loginForm" class="hidden">
+            <input
+              type="text"
+              placeholder="아이디를 입력하세요(8~15자)"
+              value=""
+              required
+              maxlength="15"
+            />
+            <input type="submit" value="LOG IN" />
+          </form>
+        </div>
+        <h1 id="greeting" class="hidden"></h1>
+        <form id="todoForm">
+          <input type="text" placeholder="할 일을 입력하세요" required />
+        </form>
+        <ul id="todoList"></ul>
+      </div>
+      <div id="toeic">
+        <span>영단어 외우기</span><br />
+        <span></span>
+      </div>
+      <input id="toeicCheck" type="button" value="시작"></input>
+    </main>
+    <footer>
+     <h4 id="covid19">
+      <span class ="orgnm"></span><br/>
+      <span class="orgTlno"></span>
+     </h4>
+      <div id="images"></div>
+      <div id="quote">
+        <span></span><br />
+        <span></span>
+      </div>
+    </footer>
+
+    
+  </body>
+  <script src="js/greeting.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/quote.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/covid19.js"></script>
+  <script src="js/nightmode.js"></script>
+  <script src="js/toeic.js"></script>
+</html>
